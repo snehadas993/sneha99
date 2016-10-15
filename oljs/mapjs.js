@@ -22,7 +22,7 @@ var layer = new ol.layer.Tile({
         })
       });
 var map = new ol.Map({
-        layers: [layer],
+        layers: [layer,vector],
         target: 'map',
         view: new ol.View({
           center: [-11000000, 4600000],
